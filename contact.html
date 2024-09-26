@@ -471,8 +471,7 @@
             const service = document.getElementById('serviceSelect').value;
             const message = document.querySelector('textarea[name="message"]').value;
 
-            // Create the email body content with newlines (\n)
-            let body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\n\nMessage:\n${message}`;
+            let body = `Name: ${name}, Email: ${email}, Phone: ${phone}, Service: ${service}, Message: ${message}`;
 
             // Encode each component separately to ensure proper formatting
             const encodedBody = encodeURIComponent(body);
