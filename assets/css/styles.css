@@ -1920,7 +1920,7 @@ html.lenis {
   position: relative;
   display: block;
   width: 100%;
-  background: white;
+  background: transparent;
   transition: all 500ms ease;
   z-index: 999;
 }
@@ -1928,6 +1928,7 @@ html.lenis {
 .main-menu-three__top {
   position: relative;
   display: block;
+  height: 50px;
   background-color: var(--multiserve-secondary);
 }
 
