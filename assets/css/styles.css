@@ -1920,7 +1920,7 @@ html.lenis {
   position: relative;
   display: block;
   width: 100%;
-  background: transparent;
+  background: white;
   transition: all 500ms ease;
   z-index: 999;
 }
