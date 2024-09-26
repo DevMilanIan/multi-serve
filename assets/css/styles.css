@@ -461,6 +461,12 @@ html.lenis {
 .handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(8):before {
   animation-delay: 1.4s;
 }
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(9):before {
+  animation-delay: 1.6s;
+}
+.handle-preloader .animation-preloader .txt-loading .letters-loading:nth-child(10):before {
+  animation-delay: 1.8s;
+}
 .handle-preloader .loader-section {
   background-color: #ffffff;
   height: 100%;
@@ -11720,7 +11726,6 @@ html.lenis {
 .contact-three {
   position: relative;
   display: block;
-  padding: 0 0 50px;
   z-index: 1;
 }
 
