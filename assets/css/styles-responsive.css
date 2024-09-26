@@ -2253,7 +2253,7 @@
     position: relative;
     display: block;
     text-align: center;
-    background-color: var(--topfloor-black);
+    background-color: var(--multiserve-secondary);
   }
 
   .main-header__logo a {
@@ -2293,7 +2293,7 @@
     position: relative;
     display: block;
     text-align: center;
-    background-color: var(--topfloor-black);
+    background-color: var(--multiserve-secondary);
   }
 
   .main-header__logo a {
@@ -2347,7 +2347,7 @@
     position: relative;
     display: block;
     text-align: center;
-    background-color: var(--topfloor-black);
+    background-color: var(--multiserve-secondary);
   }
 
   .main-header__logo a {
