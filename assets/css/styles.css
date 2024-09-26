@@ -8956,7 +8956,6 @@ html.lenis {
 .testimonial-three {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
   z-index: 1;
   background-color: var(--multiserve-primary);
 }

@@ -1,4 +1,8 @@
 @media only screen and (min-width: 1200px) and (max-width: 1319px) {
+  .testimonial-three {
+    padding: 120px 0 120px;
+  }
+
   .service-one__single {
     padding: 40px 20px 32px;
   }
@@ -438,6 +442,10 @@
     line-height: 45px;
   }
 
+  .testimonial-three {
+    padding: 80px 0 80px;
+  }
+
   .testimonial-three__left {
     max-width: 600px;
     margin: 0 auto 50px;
@@ -848,6 +856,10 @@
   .testimonial-three__right {
     max-width: 600px;
     margin: 0 auto;
+  }
+
+  .testimonial-three {
+    padding: 50px 0 50px;
   }
 
   .cta-two__contact-input-box {
@@ -1438,6 +1450,10 @@
 
   .project-three__btn-box {
     margin-top: 20px;
+  }
+
+  .testimonial-three {
+    padding: 30px 0 30px;
   }
 
   .testimonial-three__left {
@@ -2185,6 +2201,13 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1420px) {
+  .testimonial-three {
+    padding: 120px 0 120px;
+  }
+  #clarifications {
+    padding: 120px 0 120px;
+  }
+
   .main-slider-two__img {
     max-width: 700px;
   }
@@ -2355,6 +2378,10 @@
 }
 
 @media (max-width: 767px) {
+  #clarifications {
+    padding: 30px 0 30px;
+  }
+
   .about-three__img-3 {
     display: none;
   }
@@ -2432,7 +2459,13 @@
   }
 }
 
-@media only screen and (min-width: 1500px) and (max-width: 1790px) {
+@media only screen and (min-width: 1500px) {
+  .testimonial-three {
+    padding: 120px 0 120px;
+  }
+  #clarifications {
+    padding: 120px 0 120px;
+  }
   .main-menu__top-inner {
     padding: 9px 365px 9px;
     padding-right: 80px;
@@ -2440,6 +2473,12 @@
 }
 
 @media only screen and (min-width: 1320px) and (max-width: 1499px) {
+  .testimonial-three {
+    padding: 120px 0 120px;
+  }
+  #clarifications {
+    padding: 120px 0 120px;
+  }
   .main-menu__top-inner {
     padding: 9px 300px 9px;
     padding-right: 20px;
@@ -2452,6 +2491,12 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .testimonial-three {
+    padding: 120px 0 120px;
+  }
+  #clarifications {
+    padding: 120px 0 120px;
+  }
   .main-menu-five__top-inner {
     padding: 9px 225px 9px;
     padding-right: 25px;
