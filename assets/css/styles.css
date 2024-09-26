@@ -2881,10 +2881,10 @@ html.lenis {
   -webkit-transform: perspective(400px) rotateY(0deg) translateX(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateX(0px);
   transform: perspective(400px) rotateY(0deg) translateX(0px);
-  -webkit-transition-delay: 2500ms;
-  -moz-transition-delay: 2500ms;
-  -ms-transition-delay: 2500ms;
-  -o-transition-delay: 2500ms;
+  -webkit-transition-delay: 1000ms;
+  -moz-transition-delay: 1000ms;
+  -ms-transition-delay: 1000ms;
+  -o-transition-delay: 1000ms;
 }
 
 .main-slier-two__small-img-box {
@@ -2918,10 +2918,10 @@ html.lenis {
   -webkit-transform: perspective(400px) rotateY(0deg) translateY(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateY(0px);
   transform: perspective(400px) rotateY(0deg) translateY(0px);
-  -webkit-transition-delay: 2600ms;
-  -moz-transition-delay: 2600ms;
-  -ms-transition-delay: 2600ms;
-  -o-transition-delay: 2600ms;
+  -webkit-transition-delay: 1100ms;
+  -moz-transition-delay: 1100ms;
+  -ms-transition-delay: 1100ms;
+  -o-transition-delay: 1100ms;
 }
 
 .main-slier-two__small-img-inner {
@@ -2974,10 +2974,10 @@ html.lenis {
   -webkit-transform: perspective(400px) rotateY(0deg) translateX(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateX(0px);
   transform: perspective(400px) rotateY(0deg) translateX(0px);
-  -webkit-transition-delay: 2800ms;
-  -moz-transition-delay: 2800ms;
-  -ms-transition-delay: 2800ms;
-  -o-transition-delay: 2800ms;
+  -webkit-transition-delay: 1300ms;
+  -moz-transition-delay: 1300ms;
+  -ms-transition-delay: 1300ms;
+  -o-transition-delay: 1300ms;
 }
 
 .main-slier-two__shape-2 {
@@ -2989,9 +2989,9 @@ html.lenis {
   background-color: var(--multiserve-base);
   clip-path: polygon(70% 0, 100% 0, 30% 100%, 0% 100%);
   opacity: 0;
-  -webkit-transform: perspective(400px) rotate(16deg) translateX(-200px);
-  -ms-transform: perspective(400px) rotate(16deg) translateX(-200px);
-  transform: perspective(400px) rotate(16deg) translateX(-200px);
+  -webkit-transform: perspective(400px) rotate(15deg) translateX(-200px);
+  -ms-transform: perspective(400px) rotate(15deg) translateX(-200px);
+  transform: perspective(400px) rotate(15deg) translateX(-200px);
   -webkit-transform-origin: bottom;
   -ms-transform-origin: bottom;
   transform-origin: bottom;
@@ -3005,13 +3005,13 @@ html.lenis {
 
 .main-slider-two .swiper-slide-active .main-slier-two__shape-2 {
   opacity: 1;
-  -webkit-transform: perspective(400px) rotate(16deg) translateX(0px);
-  -ms-transform: perspective(400px) rotate(16deg) translateX(0px);
-  transform: perspective(400px) rotate(16deg) translateX(0px);
-  -webkit-transition-delay: 2900ms;
-  -moz-transition-delay: 2900ms;
-  -ms-transition-delay: 2900ms;
-  -o-transition-delay: 2900ms;
+  -webkit-transform: perspective(400px) rotate(15deg) translateX(0px);
+  -ms-transform: perspective(400px) rotate(15deg) translateX(0px);
+  transform: perspective(400px) rotate(15deg) translateX(0px);
+  -webkit-transition-delay: 1400ms;
+  -moz-transition-delay: 1400ms;
+  -ms-transition-delay: 1400ms;
+  -o-transition-delay: 1400ms;
 }
 
 .main-slier-two__shape-3 {
@@ -3042,10 +3042,10 @@ html.lenis {
   -webkit-transform: perspective(400px) rotate(15deg) translateY(0px);
   -ms-transform: perspective(400px) rotate(15deg) translateY(0px);
   transform: perspective(400px) rotate(15deg) translateY(0px);
-  -webkit-transition-delay: 3000ms;
-  -moz-transition-delay: 3000ms;
-  -ms-transition-delay: 3000ms;
-  -o-transition-delay: 3000ms;
+  -webkit-transition-delay: 1500ms;
+  -moz-transition-delay: 1500ms;
+  -ms-transition-delay: 1500ms;
+  -o-transition-delay: 1500ms;
 }
 
 .main-slider-two .container {
@@ -3097,11 +3097,11 @@ html.lenis {
   -webkit-transform: perspective(400px) rotateY(0deg) translateY(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateY(0px);
   transform: perspective(400px) rotateY(0deg) translateY(0px);
-  -webkit-transition-delay: 1800ms;
-  -moz-transition-delay: 1800ms;
-  -ms-transition-delay: 1800ms;
-  -o-transition-delay: 1800ms;
-  transition-delay: 1800ms;
+  -webkit-transition-delay: 800ms;
+  -moz-transition-delay: 800ms;
+  -ms-transition-delay: 800ms;
+  -o-transition-delay: 800ms;
+  transition-delay: 800ms;
 }
 
 .main-slider-two__title {
@@ -3133,10 +3133,10 @@ html.lenis {
   -webkit-transform: perspective(400px) rotateY(0deg) translateY(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateY(0px);
   transform: perspective(400px) rotateY(0deg) translateY(0px);
-  -webkit-transition-delay: 1500ms;
-  -moz-transition-delay: 1500ms;
-  -ms-transition-delay: 1500ms;
-  -o-transition-delay: 1500ms;
+  -webkit-transition-delay: 800ms;
+  -moz-transition-delay: 800ms;
+  -ms-transition-delay: 800ms;
+  -o-transition-delay: 800ms;
 }
 
 .main-slider-two__text {
@@ -3162,11 +3162,11 @@ html.lenis {
   -webkit-transform: perspective(400px) rotateY(0deg) translateY(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateY(0px);
   transform: perspective(400px) rotateY(0deg) translateY(0px);
-  -webkit-transition-delay: 1500ms;
-  -moz-transition-delay: 1500ms;
-  -ms-transition-delay: 1500ms;
-  -o-transition-delay: 1500ms;
-  transition-delay: 1500ms;
+  -webkit-transition-delay: 800ms;
+  -moz-transition-delay: 800ms;
+  -ms-transition-delay: 800ms;
+  -o-transition-delay: 800ms;
+  transition-delay: 800ms;
 }
 
 .main-slider-two__btn-and-video {
@@ -3195,11 +3195,11 @@ html.lenis {
   -webkit-transform: perspective(400px) rotateY(0deg) translateY(0px);
   -ms-transform: perspective(400px) rotateY(0deg) translateY(0px);
   transform: perspective(400px) rotateY(0deg) translateY(0px);
-  -webkit-transition-delay: 2000ms;
-  -moz-transition-delay: 2000ms;
-  -ms-transition-delay: 2000ms;
-  -o-transition-delay: 2000ms;
-  transition-delay: 2000ms;
+  -webkit-transition-delay: 800ms;
+  -moz-transition-delay: 800ms;
+  -ms-transition-delay: 800ms;
+  -o-transition-delay: 800ms;
+  transition-delay: 800ms;
 }
 
 .main-slider-two__btn-box {
