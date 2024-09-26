@@ -2245,6 +2245,9 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-three__img-3 {
+    display: none;
+  }
   .main-menu__top {
     display: none;
   }
@@ -2285,6 +2288,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-three__img-3 {
+    display: none;
+  }
   .main-menu__top {
     display: none;
   }
@@ -2339,6 +2345,9 @@
 }
 
 @media (max-width: 767px) {
+  .about-three__img-3 {
+    display: none;
+  }
   .main-menu__top {
     display: none;
   }
