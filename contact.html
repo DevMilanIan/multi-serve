@@ -247,7 +247,7 @@
                             </div>
                             <div class="col-xl-6 col-lg-6">
                                 <div class="contact-two__input-box">
-                                    <input type="text" name="Phone" placeholder="Phone Number">
+                                    <input type="text" name="Phone" placeholder="Phone Number" required>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6">
@@ -479,7 +479,6 @@
             // Email validation using a simple regex
             const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailPattern.test(email)) {
-                alert("Please fill in a valid email address.");
                 return;
             }
 
