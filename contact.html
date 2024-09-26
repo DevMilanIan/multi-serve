@@ -471,17 +471,17 @@
             const service = document.getElementById('serviceSelect').value;
             const message = document.querySelector('textarea[name="message"]').value;
 
-            // Create the email body content
-            let body = `Name: ${name}%0AEmail: ${email}%0APhone: ${phone}%0AService: ${service}%0A`;
-            body += `Message: %0A${message}`;
+            // Create the email body content with newlines
+            let body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\n\nMessage:\n${message}`;
 
-            // Create mailto link
-            const mailtoLink = `mailto:justask@multiserve.us?subject=Appointment%20Request&body=${encodeURIComponent(body)}`;
+            // Create mailto link and encode the subject and body
+            const mailtoLink = `mailto:ian@milanwebworks.com?subject=${encodeURIComponent('Appointment Request')}&body=${encodeURIComponent(body)}`;
 
             // Redirect to mailto link
             window.location.href = mailtoLink;
         });
     </script>
+
 
 </body>
 
