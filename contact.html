@@ -465,12 +465,25 @@
             event.preventDefault(); // Prevent the form from submitting
 
             // Gather form data
-            const name = document.querySelector('input[name="name"]').value;
-            const email = document.querySelector('input[name="email"]').value;
-            const phone = document.querySelector('input[name="Phone"]').value;
-            const service = document.getElementById('serviceSelect').value;
-            const message = document.querySelector('textarea[name="message"]').value;
+            const name = document.querySelector('input[name="name"]').value.trim();
+            const email = document.querySelector('input[name="email"]').value.trim();
+            const phone = document.querySelector('input[name="Phone"]').value.trim();
+            const service = document.getElementById('serviceSelect').value.trim();
+            const message = document.querySelector('textarea[name="message"]').value.trim();
 
+            // Basic validation
+            if (!name || !email || !message) {
+                alert("Please fill out all required fields (Name, Email, Message).");
+                return;
+            }
+
+            // Email validation using a simple regex
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                return;
+            }
+
+            // Create the email body content
             let body = `Name: ${name}, Email: ${email}, Phone: ${phone}, Service: ${service}, Message: ${message}`;
 
             // Encode each component separately to ensure proper formatting
@@ -478,12 +491,13 @@
             const subject = encodeURIComponent('Appointment Request');
 
             // Create the mailto link
-            const mailtoLink = `mailto:ian@milanwebworks.com?subject=${subject}&body=${encodedBody}`;
+            const mailtoLink = `mailto:justask@multiserve.us?subject=${subject}&body=${encodedBody}`;
 
             // Redirect to the mailto link
             window.location.href = mailtoLink;
         });
     </script>
+
 
 
 </body>
