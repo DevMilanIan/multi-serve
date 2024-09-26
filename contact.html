@@ -471,13 +471,17 @@
             const service = document.getElementById('serviceSelect').value;
             const message = document.querySelector('textarea[name="message"]').value;
 
-            // Create the email body content with newlines
+            // Create the email body content with newlines (\n)
             let body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}\n\nMessage:\n${message}`;
 
-            // Create mailto link and encode the subject and body
-            const mailtoLink = `mailto:ian@milanwebworks.com?subject=${encodeURIComponent('Appointment Request')}&body=${encodeURIComponent(body)}`;
+            // Encode each component separately to ensure proper formatting
+            const encodedBody = encodeURIComponent(body);
+            const subject = encodeURIComponent('Appointment Request');
 
-            // Redirect to mailto link
+            // Create the mailto link
+            const mailtoLink = `mailto:ian@milanwebworks.com?subject=${subject}&body=${encodedBody}`;
+
+            // Redirect to the mailto link
             window.location.href = mailtoLink;
         });
     </script>
