@@ -1935,7 +1935,7 @@ html.lenis {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 9px 0px 9px;
 }
@@ -7955,12 +7955,11 @@ html.lenis {
   position: relative;
   display: block;
   margin-left: 30px;
-  margin-top: 24px;
+  margin-top: 10px;
 }
 
 .about-three__top-text {
-  font-size: 20px;
-  color: var(--multiserve-secondary);
+  color: #67687a;
 }
 
 .about-three__left {
@@ -8956,9 +8955,8 @@ html.lenis {
 .testimonial-three {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 0 0 120px;
   z-index: 1;
-  background-color: var(--multiserve-primary);
 }
 
 .testimonial-three__left {
@@ -9075,7 +9073,6 @@ html.lenis {
   width: 60px;
   height: 60px;
   color: var(--multiserve-secondary);
-  background-color: white;
   border: 2px solid var(--multiserve-bdr-color);
   font-size: 16px;
   margin: 0px 0px;
