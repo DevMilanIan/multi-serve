@@ -1211,6 +1211,19 @@
     width: 100%;
   }
 
+  #about-quality {
+    margin-top: 24px;
+  }
+
+  #offer-flip > br,
+  #clarifications > * br {
+    display: none;
+  }
+
+  #clarifications {
+    padding-right: 8px;
+  }
+
   .testimonial-one__top-text {
     margin-top: 20px;
   }
